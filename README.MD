@@ -64,7 +64,7 @@ TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS,
 
 ## In-app Video
 
-- https://github.com/SanchitDang/...mp4
+- - [![Demo](https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/yt.png)](https://youtu.be/1oP7VKiTOlY "Demo")
 
 
 ## In-app Screenshots
