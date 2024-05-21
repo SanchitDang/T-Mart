@@ -70,33 +70,33 @@ TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS,
 ## In-app Screenshots
 
 - Home Screen
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/home.png" width="600" height="300" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/home3.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/newproducts0.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/home.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/home3.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/newproducts0.png" width="600" height="325" />
 - Recommendations using AI based on user history
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/recommendations.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/recommendations.png" width="600" height="325" />
 - Search Results based on AI
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/searchresults.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/searchresults2.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/searchresults.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/searchresults2.png" width="600" height="325" />
 - Product View
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productview.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productview.png" width="600" height="325" />
 - User Login
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/login.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/login.png" width="600" height="325" />
 - Product Description
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productdescription.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productspecification.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productspecification.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productdescription.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productspecification.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productspecification.png" width="600" height="325" />
 - All Products, filter
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/allproducts.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/filterproduct.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/allproducts.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/filterproduct.png" width="600" height="325" />
 - Cart, checkout
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/cart.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/cart2.png" width="200" height="400" />
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/chackout.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/cart.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/cart2.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/chackout.png" width="600" height="325" />
 - My Orders
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/order.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/order.png" width="600" height="325" />
 - Footer
-- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/footer.png" width="200" height="400" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/footer.png" width="600" height="325" />
 
 
 ## Installation
