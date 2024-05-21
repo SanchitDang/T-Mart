@@ -11,6 +11,8 @@ TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS,
 - [Libraries Used](#libraries-used)
 - [In-app Video](#in-app-video)
 - [In-app Screenshots](#in-app-screenshots)
+- [Adding Products Through Admin Panel](#adding-products-through-admin-panel)
+- [Admin Panel Screenshots](#admin-panel-screenshots)
 - [Installation](#installation)
 
 
@@ -97,6 +99,30 @@ TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS,
 - <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/order.png" width="600" height="325" />
 - Footer
 - <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/footer.png" width="600" height="325" />
+
+
+## Adding Products Through Admin Panel
+- We can easily add/edit the products through the Django Administrative Panel or by Custom Admin Panel
+- Url for django admin panel **/super-admin**
+- Url for custom admin panel **/admin/login**
+
+
+## Admin Panel Screenshots
+
+- Admin Login
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/adminlogin.png" width="600" height="325" />
+- Dashboard
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/dashboard.png" width="600" height="325" />
+- Add Product
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/addproduct.png" width="600" height="325" />
+- Add Brand
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/addbrand.png" width="600" height="325" />
+- Products
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/products.png" width="600" height="325" />
+- Users
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/users.png" width="600" height="325" />
+- History Table (For AI dataset)
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/history.png" width="600" height="325" />
 
 
 ## Installation
