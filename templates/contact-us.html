@@ -1,0 +1,317 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Title -->
+<title>TelavergeMart</title>
+
+<!-- Favicon Icon -->
+<link rel="shortcut icon" href="assets/images/favicon.png" />
+
+<!-- inject css start -->
+
+  <link href="{% static 'css/theme-plugin.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/theme.min.css' %}" rel="stylesheet" />
+
+<!-- inject css end -->
+
+</head>
+
+<body>
+
+<!-- page wrapper start -->
+
+<div class="page-wrapper">
+  
+<!-- preloader start -->
+
+<div id="ht-preloader">
+  <div class="loader clear-loader">
+    <img class="img-fluid" src="{% static 'images/loader.gif' %}" alt="">
+  </div>
+</div>
+
+<!-- preloader end -->
+
+
+  <!--header start-->
+  {% include 'header.html' %}
+  {% load custom_tags %}
+  <!--header end-->
+
+
+
+
+
+
+
+  <!--hero section start-->
+
+<section class="bg-light py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="h3 mb-0">Contact Us</h3>
+      </div>
+      <div class="col-md-6 mt-3 mt-md-0">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb justify-content-md-end bg-transparent p-0 m-0">
+            <li class="breadcrumb-item"><a class="link-title" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item"><a class="link-title" href="#">Pages</a></li>
+            <li class="breadcrumb-item active text-primary" aria-current="page">Contact Us</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- / .row -->
+  </div>
+  <!-- / .container -->
+</section>
+
+<!--hero section end--> 
+
+
+<!--body content start-->
+
+<div class="page-content">
+
+<section>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-7">
+        
+        <form id="contact-form" class="row" method="post" action="">
+            <div class="messages"></div>
+            <div class="form-group col-md-6">
+              <label>First Name <span class="text-danger">*</span></label>
+              <input id="form_name" type="text" name="name" class="form-control" placeholder="First Name" required data-error="Name is required.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <label>Last Name <span class="text-danger">*</span></label>
+              <input id="form_name1" type="text" name="name" class="form-control" placeholder="Last Name" required data-error="Name is required.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <label>Email Address <span class="text-danger">*</span></label>
+              <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required data-error="Valid email is required.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <label>Phone Number <span class="text-danger">*</span></label>
+              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone" required data-error="Phone is required">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-md-12">
+              <label>Message <span class="text-danger">*</span></label>
+              <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required data-error="Please,leave us a message."></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="col-md-12 mt-4">
+              <button class="btn btn-primary btn-animated"><span>Submit</span>
+              </button>
+            </div>
+          </form>
+      </div>
+      <div class="col-lg-5 mt-6 mt-lg-0">
+        <div class="border-0 rounded p-5 bg-dark-1 contact-info">
+         
+        <div class="d-flex mb-4 border-bottom pb-4">
+          <div class="mr-2"> <i class="las la-map-marker-alt ic-2x text-primary"></i></i>
+          </div>
+          <div>
+            <h6 class="mb-1 text-white">We are located here for you</h6>
+            <p class="mb-0">New Delhi-110015, India</p>
+          </div>
+        </div>
+        <div class="d-flex mb-4 border-bottom pb-4">
+          <div class="mr-2"> <i class="las la-envelope ic-2x text-primary"></i>
+          </div>
+          <div>
+            <h6 class="mb-1 text-white">We're here for you! Just get answers</h6>
+            <a href="#">work.sanchitdang@gmail.com</a>
+          </div>
+        </div>
+        <div class="d-flex mb-4 border-bottom pb-4">
+          <div class="mr-2"> <i class="las la-mobile ic-2x text-primary"></i>
+          </div>
+          <div>
+            <h6 class="mb-1 text-white">Have any questions? Reach us by phone</h6>
+            <a href="#">+91 8810625561</a>
+          </div>
+        </div>
+        <div class="d-flex mb-2">
+          <div class="mr-2"> <i class="las la-pen ic-2x text-primary"></i>
+          </div>
+          <div>
+            <h6 class="mb-1 text-white">Explore most popular help topics</h6>
+            <span>Get to know about us in depth</span>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+<!--footer start-->
+{% include 'footer.html' %}
+<!--footer end-->
+
+
+<!-- page wrapper end -->
+
+
+<!-- Quick View Modal -->
+<div class="modal fade view-modal" id="quick-view" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0 pb-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-12">
+            <img class="img-fluid rounded" src="assets/images/product/large/01.html" alt="" />
+          </div>
+          <div class="col-lg-7 col-12 mt-5 mt-lg-0">
+            <div class="product-details">
+              <h3 class="mb-0">Women Sweater</h3>
+              <div class="star-rating mb-4"><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+              </div> <span class="product-price h4">$25.00 <del class="text-muted h6">$35.00</del></span>
+              <ul class="list-unstyled my-4">
+                <li class="mb-2">Availibility: <span class="text-muted"> In Stock</span> 
+                </li>
+                <li>Categories :<span class="text-muted"> Women's</span>
+                </li>
+              </ul>
+              <p class="mb-4">Nulla eget sem vitae eros pharetra viverra Nam vitae luctus ligula suscipit risus nec eleifend Pellentesque eu quam sem, ac malesuada</p>
+              <div class="d-sm-flex align-items-center mb-5">
+                <div class="d-flex align-items-center mr-sm-4">
+                  <button class="btn-product btn-product-up"> <i class="las la-minus"></i>
+                  </button>
+                  <input class="form-product" type="number" name="form-product" value="1">
+                  <button class="btn-product btn-product-down"> <i class="las la-plus"></i>
+                  </button>
+                </div>
+                <select class="custom-select mt-3 mt-sm-0" id="inputGroupSelect01">
+                  <option selected>Size</option>
+                  <option value="1">XS</option>
+                  <option value="2">S</option>
+                  <option value="3">M</option>
+                  <option value="3">L</option>
+                  <option value="3">XL</option>
+                  <option value="3">XXL</option>
+                </select>
+                <div class="d-flex text-center ml-sm-4 mt-3 mt-sm-0">
+                  <div class="form-check pl-0 mr-3">
+                    <input type="radio" class="form-check-input" id="color-filter01" name="Radios">
+                    <label class="form-check-label" for="color-filter01" data-bg-color="#3cb371"></label>
+                  </div>
+                  <div class="form-check pl-0 mr-3">
+                    <input type="radio" class="form-check-input" id="color-filter02" name="Radios" checked>
+                    <label class="form-check-label" for="color-filter02" data-bg-color="#4876ff"></label>
+                  </div>
+                  <div class="form-check pl-0 mr-3">
+                    <input type="radio" class="form-check-input" id="color-filter03" name="Radios">
+                    <label class="form-check-label" for="color-filter03" data-bg-color="#0a1b2b"></label>
+                  </div>
+                  <div class="form-check pl-0">
+                    <input type="radio" class="form-check-input" id="color-filter04" name="Radios">
+                    <label class="form-check-label" for="color-filter04" data-bg-color="#f94f15"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="d-sm-flex align-items-center mt-5">
+                <button class="btn btn-primary btn-animated mr-sm-4 mb-3 mb-sm-0"><i class="las la-shopping-cart mr-1"></i>Add To Cart</button>
+                <a class="btn btn-animated btn-dark" href="#"> <i class="lar la-heart mr-1"></i>Add To Wishlist</a>
+              </div>
+              <div class="d-sm-flex align-items-center border-top pt-4 mt-5">
+                <h6 class="mb-sm-0 mr-sm-4">Share It:</h6>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a class="bg-white shadow-sm rounded p-2" href="#"><i class="la la-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item"><a class="bg-white shadow-sm rounded p-2" href="#"><i class="la la-dribbble"></i></a>
+                  </li>
+                  <li class="list-inline-item"><a class="bg-white shadow-sm rounded p-2" href="#"><i class="la la-instagram"></i></a>
+                  </li>
+                  <li class="list-inline-item"><a class="bg-white shadow-sm rounded p-2" href="#"><i class="la la-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item"><a class="bg-white shadow-sm rounded p-2" href="#"><i class="la la-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Subscribe Modal -->
+<div class="modal fade newsletter" id="mailchimpModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <i class="ion-ios-close-empty"></i>
+        </button>
+
+      <div class="modal-body p-3 text-center">
+        <div class="mb-2">
+          <img class="img-fluid" src="assets/images/bg/newsletter.jpg" alt="">
+          <h2 class="mb-0">Join our newsletter and get 20% discount</h2>
+        </div>
+        <div class="subscribe-form mx-7 mb-4">
+          <form id="mc-form1" class="row align-items-center no-gutters mb-3">
+            <div class="col">
+              <input value="" name="EMAIL" class="email form-control input-2 bg-white" placeholder="Enter your email..." required type="email">
+            </div>
+            <div class="col-auto">
+              <input class="btn btn-primary overflow-auto" name="subscribe" value="Subscribe" type="submit">
+            </div>
+          </form> 
+          <small class="bottom-text">
+          <input name="notshowpopup" id="notshowpopup" type="checkbox">
+          Don’t show this popup again</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<!--back-to-top start-->
+
+<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="las la-angle-up"></i></a></div>
+
+<!--back-to-top end-->
+
+<!-- inject js start -->
+<script src=" {% static 'js/jquery-3.5.1.min.js' %}"></script>
+<script src=" {% static 'js/popper.min.js' %}"></script>
+<script src=" {% static 'js/bootstrap.min.js' %}"></script>
+<script src=" {% static 'js/owl.carousel.min.js' %}"></script>
+<script src=" {% static 'js/light-slider.js' %}"></script>
+<script src=" {% static 'js/parallax.js' %}"></script>
+<script src=" {% static 'js/magnific-popup.min.js' %}"></script>
+<script src=" {% static 'js/jquery.countdown.min.js' %}"></script>
+<script src=" {% static 'js/jquery.dd.min.js' %}"></script>
+<script src=" {% static 'js/validator.js' %}"></script>
+<script src=" {% static 'js/wow.js' %}"></script>
+<script src=" {% static 'js/theme-script.js' %}"></script>
+<!-- inject js end -->
+
+</body>
+
+</html>
