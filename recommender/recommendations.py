@@ -66,11 +66,11 @@ def get_recommendations(user_id, top_n=4):
     return products
 
 
-def search_products(search_keyword, top_n=6):
+def search_products(search_keyword, top_n=5):
     nltk.download('punkt')
 
     # Step 1: Prepare data for TF-IDF vectorization
-    tshirts_data = product.objects.all()
+    tshirts_data = Product.objects.all()
     tshirts_df = pd.DataFrame(list(tshirts_data.values('id', 'name', 'desc')))
     tshirts_df['stemmed_tokens'] = tshirts_df.apply(lambda row: tokenize_and_stem(f"{row['name']} {row['desc']}"), axis=1)
 
@@ -91,7 +91,7 @@ def search_products(search_keyword, top_n=6):
 
     products = []
     for i in similar_product_ids:
-        tshirt = product.objects.get(id=i)
+        tshirt = Product.objects.get(id=i)
         size_variants = Sizevariant.objects.filter(tshirt=tshirt)
         for size_variant in size_variants:
             product = {

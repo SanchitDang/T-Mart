@@ -74,7 +74,7 @@ def search(request):
     if request.method == 'GET' and 'q' in request.GET:
         search_query = request.GET['q']
         search_results = search_products(search_query)
-        print("search_resultswssssssssssssssssssssssssssssssssssssss")
+        print("search_results")
         print(search_results)
         return render(request, 'search-list.html', {'search_results': search_results})
     else:

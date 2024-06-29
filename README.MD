@@ -2,17 +2,17 @@
 
 TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS, and JavaScript. This platform features an AI recommendation system that monitors your viewing history and provides personalized product recommendations on the home screen(you must be logged in to get personalized recommendations).
 
-## Live Website Link
-
-
 
 ## Contents
+
 - [Features](#features)
 - [Technologies used](#technologies-used)
 - [Deployment](#deployment)
 - [Libraries Used](#libraries-used)
 - [In-app Video](#in-app-video)
 - [In-app Screenshots](#in-app-screenshots)
+- [Adding Products Through Admin Panel](#adding-products-through-admin-panel)
+- [Admin Panel Screenshots](#admin-panel-screenshots)
 - [Installation](#installation)
 
 
@@ -44,7 +44,6 @@ TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS,
 
 ## Deployment
 
-- **Website**: The website is deployed on pythonanywhere
 - **MySQL DataBase**: MySQL is deployed on aivencloud
 
 
@@ -66,12 +65,64 @@ TELAVERGE MART is a full-stack e-commerce website built using Django, HTML, CSS,
 
 
 ## In-app Video
-- https://github.com/SanchitDang/...mp4
+
+[![Demo](https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/yt.png)](https://youtu.be/1oP7VKiTOlY "Demo")
 
 
 ## In-app Screenshots
-- Splash Screen
-- <img src="" width="200" height="400" />
+
+- Home Screen
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/home.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/home3.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/newproducts0.png" width="600" height="325" />
+- Recommendations using AI based on user history
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/recommendations.png" width="600" height="325" />
+- Search Results based on AI
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/searchresults.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/searchresults2.png" width="600" height="325" />
+- Product View
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productview.png" width="600" height="325" />
+- User Login
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/login.png" width="600" height="325" />
+- Product Description
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productdescription.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productspecification.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/productspecification.png" width="600" height="325" />
+- All Products, filter
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/allproducts.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/filterproduct.png" width="600" height="325" />
+- Cart, checkout
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/cart.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/cart2.png" width="600" height="325" />
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/chackout.png" width="600" height="325" />
+- My Orders
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/order.png" width="600" height="325" />
+- Footer
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/footer.png" width="600" height="325" />
+
+
+## Adding Products Through Admin Panel
+- We can easily add/edit the products through the Django Administrative Panel or by Custom Admin Panel
+- Url for django admin panel **/super-admin**
+- Url for custom admin panel **/admin/login**
+
+
+## Admin Panel Screenshots
+
+- Admin Login
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/adminlogin.png" width="600" height="325" />
+- Dashboard
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/dashboard.png" width="600" height="325" />
+- Add Product
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/addproduct.png" width="600" height="325" />
+- Add Brand
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/addbrand.png" width="600" height="325" />
+- Products
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/products.png" width="600" height="325" />
+- Users
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/users.png" width="600" height="325" />
+- History Table (For AI dataset)
+- <img src="https://github.com/SanchitDang/TelavergeMart/blob/master/_AppDemo/history.png" width="600" height="325" />
 
 
 ## Installation
